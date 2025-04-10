@@ -103,8 +103,14 @@
 
       <!-- Instagram Section -->
   <section class="p-8">
+
     <h2 class="text-3xl font-semibold mb-4">Instagram Post Designs</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+
+    <!-- <button id="toggleInsta" class="bg-indigo-600 text-white px-6 py-2 rounded-full hover:bg-indigo-700 transition">
+      Ckick here 
+    </button> -->
+
+    <div id="InstaContainer" class="grid grid-cols-1 sm:grid-cols-3 gap-6">
       <div class="bg-white border p-5 m-2 shadow rounded">
         <img src="internsland lestus.jpg" alt="Instagram Post 1" class="w-full h-50 object-cover rounded mb-3">
         <p class="text-gray-700 text-">Designed this branding graphic for Internsland’s marketing campaign to promote their business growth and startup support services. It conveys a clear and confident call-to-action, encouraging startups and businesses to scale with expert branding and marketing solutions. </p>
@@ -116,6 +122,18 @@
       <div class="bg-white border p-5 m-2 shadow rounded">
         <img src="internsland web.jpg" alt="Instagram Post 3" class="w-full h-50 object-cover rounded mb-2">
         <p class="text-gray-700 text-">Designed a promotional Instagram post for Internsland highlighting their website development services. The creative focuses on driving engagement through clear CTAs and showcasing service offerings such as custom websites, e-commerce, and landing page development. This post was aimed at startups and small businesses seeking to establish a strong digital presence.</p>
+      </div>
+      <div class="bg-white border p-5 m-2 shadow rounded">
+        <img src="make a website at 10,999.jpg" alt="Instagram Post 4" class="w-full h-50 object-cover rounded mb-2">
+        <p class="text-gray-700 text-">I created and promoted a limited-time website development offer at Internsland, highlighting features like free hosting, domain registration, custom design, SEO setup, and fast delivery. The campaign boosted engagement and helped generate quality leads for small businesses looking to go online.</p>
+      </div>
+      <div class="bg-white border p-5 m-2 shadow rounded">
+        <img src="Tips for Digital .jpg" alt="Instagram Post 5" class="w-full h-50 object-cover rounded mb-2">
+        <p class="text-gray-700 text-">I created and designed an informative social media post titled "20 Tips for Better Time Management", aimed at helping interns and professionals boost productivity. This content was part of a broader value-driven campaign to enhance engagement and provide practical tips to the audience.</p>
+      </div>
+      <div class="bg-white border p-5 m-2 shadow rounded">
+        <img src="Engineer's Day .jpg" alt="Instagram Post 6" class="w-full h-50 object-cover rounded mb-2">
+        <p class="text-gray-700 text-">Designed and managed a creative post for Engineer’s Day to celebrate and engage our engineering audience. The design visually merged engineering elements with digital creativity, reflecting Internsland’s appreciation for innovation and builders of the future.</p>
       </div>
     </div>
   </section>
@@ -178,6 +196,11 @@
         const skills = document.getElementById("skillsContainer");
         skills.classList.toggle("hidden");
         this.textContent = skills.classList.contains("hidden") ? "Show Skills" : "Hide Skills";
+      });
+      document.getElementById("toggleInsta").addEventListener("click", function () {
+        const Insta = document.getElementById("InstaContainer");
+        Insta.classList.toggle("hidden");
+        this.textContent = Insta.classList.contains("hidden") ? "Show Insta" : "Hide Insta";
       });
     </script>
 
