@@ -10,9 +10,9 @@
 <body class="font-sans antialiased bg-white text-gray-800">
 
   <!-- Hero Section -->
-  <section class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white py-20 text-center">
+  <section class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white py-20 text-center ">
     <img src="untitled.jpeg" alt="Avinash Muley" class="w-40 h-45 mx-auto rounded-full mb-1 border-4 border-white shadow-lg" />
-    <h1 class="text-5xl font-bold">Hi, I'm Avinash Muley</h1>
+    <h1 class="text-5xl font-bold">Hi, I'm Avinash Muley. </h1>
     <p class="text-xl mt-4">Digital Marketer & SEO Specialist</p>
     <div class="mt-6 space-x-4">
       <a href="#projects" class="bg-white text-indigo-600 px-6 py-3 rounded-full font-semibold">View My Work</a>
@@ -24,7 +24,7 @@
 
   <!-- About Section -->
   <section class="py-16 px-6 md:px-20">
-    <!-- <img src="Image/Rimini_photo .jpg" alt=""> -->
+    <!-- <img src="Rimini_photo .jpg" alt="" > -->
     <h2 class="text-3xl font-bold mb-6">About Me</h2>
     <p class="text-lg">Hi, <Strong>I'm Avinash Muley</Strong>, a passionate and results-driven Digital Marketing Executive and SEO Specialist with one year of hands-on experience at Internsland. I specialize in creating and executing impactful digital strategies that enhance online presence, boost search engine rankings, and drive business growth. Skilled in website design, social media marketing, Google Ads, and search engine optimization. executed on-page and off-page SEO strategies to improve website visibility, boost organic traffic, and increase keyword rankings. My work focuses on aligning content and technical SEO best practices with business goals to drive sustainable growth.
       At Internsland, I conducted keyword research, optimized web content, performed SEO audits, and built quality backlinks.</p>
@@ -78,13 +78,39 @@
        </div>
      </div>
    </Section>
+   <hr class="h-1 bg-gray-800 border-0 my-5">
   </section>
 
 
   <!-- Experience Section -->
-  <section class="bg-gray-100 py-16 px-6 md:px-20">
-    <h2 class="text-3xl font-bold mb-6">Experience</h2>
-    <div>
+  <h2 class="text-3xl font-bold mb-6 m-10">Experience</h2>
+
+  <section class="bg-white-100 py-5 px-5 md:px-20">
+    <div  class="bg-gray-100 p-6 rounded-xl shadow-md">
+      <h3 class="text-xl font-semibold">Digital Marketing Executive </h3>
+      <p class="text-sm text-gray-600">Trinity Engineers Pvt. Ltd. | May 2025 – Present</p>
+      <a href="http://www.trinityengineers.com/Inner/Company_Profile.aspx" style="color: rgb(26, 114, 245); font-style: italic;">
+        <p>www.trinityengineers.com</p>
+    </a>
+      <ul class="list-disc ml-6 mt-2">
+        <li>Executed SEO strategies (on-page & off-page)</li>
+        <li>Managed content optimization and keyword research</li>
+        <li>Tracked performance using Google Analytics</li>
+        <li>Optimize website content to improve search engine rankings</li>
+        <li>Implemented SEO, and content marketing strategies, increasing Website traffic by 2X and
+          improving lead quality </li>
+        <li>Social Media Accounts Managed and Build </li>
+        <li>Creative the New Idiea </li>
+      </ul>
+    </div>
+    <!-- <button id="toggleInsta" class=" m-10 bg-indigo-600 text-white px-6 py-2 rounded-full hover:bg-indigo-700 transition">
+      Ckick here 
+    </button> -->
+  </section>
+
+  <!-- Internsland Experience -->
+  <section class="bg-white-100 py-16 px-6 md:px-20">
+    <div  class="bg-gray-100 p-6 rounded-xl shadow-md">
       <h3 class="text-xl font-semibold">Digital Marketing Executive </h3>
       <p class="text-sm text-gray-600">Internsland | Dec 2024 – Mar 2025</p>
       <a href="https://internsland.com/" style="color: rgb(26, 114, 245); font-style: italic;">
@@ -100,16 +126,15 @@
           improving lead quality </li>
       </ul>
     </div>
-  </section>
-
-      <!-- Instagram Section -->
-  <section class="p-8">
-
-    <h2 class="text-3xl font-semibold mb-4">Instagram Post Designs</h2>
-
-    <!-- <button id="toggleInsta" class="bg-indigo-600 text-white px-6 py-2 rounded-full hover:bg-indigo-700 transition">
+    <!-- <button id="toggleInsta" class=" m-10 bg-indigo-600 text-white px-6 py-2 rounded-full hover:bg-indigo-700 transition">
       Ckick here 
     </button> -->
+  </section>
+
+        <!-- Instagram Section -->
+  <!-- <section class="p-8">
+
+    <h2 class="text-3xl font-semibold mb-4">Instagram Post Designs</h2>
 
     <div id="InstaContainer" class="grid grid-cols-1 sm:grid-cols-3 gap-6">
       <div class="bg-white border p-5 m-2 shadow rounded">
@@ -137,11 +162,12 @@
         <p class="text-gray-700 text-">Designed and managed a creative post for Engineer’s Day to celebrate and engage our engineering audience. The design visually merged engineering elements with digital creativity, reflecting Internsland’s appreciation for innovation and builders of the future.</p>
       </div>
     </div>
-  </section>
+  </section> -->
+
 
   <!-- Projects Section -->
-  <section id="projects" class="py-16 px-6 md:px-20">
-    <!-- <h2 class="text-3xl font-bold mb-6">Featured Project</h2> -->
+  <section id="projects" class="py-16 px-6 md:px-20 ">
+    <h2 class="text-3xl font-bold mb-6">Featured Project</h2>
     <div class="bg-gray-100 p-6 rounded-xl shadow-md">
       <h3 class="text-xl font-semibold">Induxsolar</h3>
       <a href="https://Induxsolar.com/" style="color: rgb(26, 114, 245); font-style: italic;">
@@ -202,12 +228,12 @@
       });
 
 
-      // Instagram Buttton
-      // document.getElementById("toggleInsta").addEventListener("click", function () {
-      //   const Insta = document.getElementById("InstaContainer");
-      //   Insta.classList.toggle("hidden");
-      //   this.textContent = Insta.classList.contains("hidden") ? "Show Insta" : "Hide Insta";
-      // });
+      // Instagram Buttton    click the button 
+      document.getElementById("toggleInsta").addEventListener("click", function () {
+        const Insta = document.getElementById("InstaContainer");
+        Insta.classList.toggle("hidden");
+        this.textContent = Insta.classList.contains("hidden") ? "Show Insta" : "Hide Insta";
+      });
     </script>
 
 </body>
